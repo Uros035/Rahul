@@ -15,11 +15,11 @@ public class Rahul {
 		int j=0;
 		
 		String[] itemsNeeded= {"Cucumber","Brocolli","Beetroot","Carrot"}; 
-		//proba
+		
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		Thread.sleep(3000L);
 		List<WebElement> products=driver.findElements(By.cssSelector("h4.product-name"));
-		
+		//cc
 		for(int i=0;i<products.size();i++)
 			
 		{
